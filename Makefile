@@ -12,7 +12,7 @@ GOBIN = $(shell pwd)/build/bin
 GO ?= latest
 
 zsl:
-	cd vendor/github.com/jpmorganchase/zsl-q/zsl-golang/zsl/snark/ ; $(MAKE)
+	cd vendor/github.com/burnscapital/zsl-q/zsl-golang/zsl/snark/ ; $(MAKE)
 	@echo "Done building libzsl.a"
 
 geth: zsl
